@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<p id="score">0</p>
+
+
+</body>
+
+<script>
+
+function change() {
+
+  var randomNumber = Math.floor(Math.random() * 10) + 1;
+  document.getElementById("score").innerHTML = randomNumber;
+}
+
+setInterval(change, 1000);
+
+</script>
+
+</html>
